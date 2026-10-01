@@ -1,0 +1,10 @@
+name = input("enter : ")
+lists = (name)
+length = len(lists)
+for i in range(0,(length)):
+    if lists[i] == "a" or lists[i] == "e" or lists[i] == "i" or lists[i] == "o" or lists[i] == "u" :
+        print(f"{lists[i]} is an vowel ")
+    elif lists[i] == " ":
+        print("its a space ")
+    else :
+        print(f"{lists[i]} is a consonent ")
